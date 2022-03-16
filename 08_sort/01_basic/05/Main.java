@@ -12,6 +12,8 @@ public class Main{
 
     quicksort(array,0,N-1);
 
+    sc.close();
+
     System.out.println(Arrays.stream(array).mapToObj(String::valueOf).collect(Collectors.joining(" ")));
   }
 

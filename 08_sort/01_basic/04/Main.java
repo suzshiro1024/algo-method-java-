@@ -10,6 +10,8 @@ public class Main{
 
     for(int i=0; i<N; i++)  array[i] = sc.nextInt();
 
+    sc.close();
+
     quicksort(array,0,N-1);
 
     System.out.println(Arrays.stream(array).mapToObj(String::valueOf).collect(Collectors.joining(" ")));
