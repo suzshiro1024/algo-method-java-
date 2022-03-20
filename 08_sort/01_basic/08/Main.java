@@ -9,6 +9,7 @@ public class Main{
 
     int[] A = new int[N];
     for(int i=0; i<N; i++)  A[i] = Integer.parseInt(sc.next());
+    sc.close();
 
     heap(A);
 
