@@ -9,8 +9,8 @@ public class Main{
     long K = Long.parseLong(sc.next());
     sc.close();
 
-    long lcd = A/gcd(A,B)*B;
-    System.out.println(lcd*K);
+    long lcm = A/gcd(A,B)*B;
+    System.out.println(lcm*K);
   }
 
   public static long gcd(long A, long B){
